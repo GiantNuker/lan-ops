@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "lanops",
+  "version": "${version}",
+
+  "name": "LanOps",
+  "description": "/op and /deop on lan. Only the host is opped by default, and only if cheats are on.",
+  "authors": [
+    "Indicode"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/lanops",
+    "sources": "https://github.com/indi-code/lan-ops"
+  },
+
+  "license": "MIT",
+  "icon": "assets/lanops/icon.png",
+
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "io.github.indicode.fabric.lanops.LanOps"
+    ]
+  },
+  "mixins": [
+    "lanops.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}

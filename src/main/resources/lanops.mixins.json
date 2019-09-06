@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "io.github.indicode.fabric.lanops.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "IntegratedServerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
