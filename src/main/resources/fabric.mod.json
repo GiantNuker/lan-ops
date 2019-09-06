@@ -10,7 +10,8 @@
   ],
   "contact": {
     "homepage": "https://www.curseforge.com/minecraft/mc-mods/lanops",
-    "sources": "https://github.com/indi-code/lan-ops"
+    "sources": "https://github.com/indi-code/lan-ops",
+    "issues": "https://github.com/indi-code/lan-ops/issues"
   },
 
   "license": "MIT",
