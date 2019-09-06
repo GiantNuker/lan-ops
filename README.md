@@ -1,2 +1,2 @@
 # lan-ops
-(Minecraft) Only op who you choose in a lan world.
+https://www.curseforge.com/minecraft/mc-mods/lanops
